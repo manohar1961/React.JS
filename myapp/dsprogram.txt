@@ -1,0 +1,8 @@
+Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 2
+  Output: 4 // x (or 2) occurs 4 times in arr[]
+
+  Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 3
+  Output: 1 
+
+  Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 1
+  Output: 2 
