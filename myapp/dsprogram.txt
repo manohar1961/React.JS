@@ -1,3 +1,18 @@
+1.An element is called a peak element if its value is not smaller than the value of its adjacent elements(if they exists).
+Given an array arr[] of size N, Return the index of any one of its peak elements.
+Note: The generated output will always be 1 if the index that you return is correct. Otherwise output will be 0. 
+Input: array[]= {5, 10, 20, 15}
+Output: 20
+Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20.
+2.Given an array arr[] and an integer K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+Input:
+N = 6
+arr[] = 7 10 4 3 20 15
+K = 3
+Output : 7
+Explanation :3rd smallest element in the given array is 7.
+
+3.Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. Expected time complexity is O(Logn) 
 Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 2
   Output: 4 // x (or 2) occurs 4 times in arr[]
 
@@ -6,3 +21,4 @@ Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 2
 
   Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 1
   Output: 2 
+
